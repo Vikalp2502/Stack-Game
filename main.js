@@ -1,25 +1,3 @@
-/*
-
-Three.js + Cannon.js video tutorial explaining the source code
-
-Youtube: https://youtu.be/hBiGFpBle7E
-SkillShare: https://skl.sh/3uREVvq 
-
-In the tutorial, we go through the source code of this game. We cover, how to set up a Three.js scene with box objects, how to add lights, how to set up the camera, how to add animation and event handlers, and finally, we add physics simulation with Cannon.js.
-
-Comparing to the tutorial this version has some extra features: 
-- autopilot mode before the game starts
-- introduction and result screens
-- score indicator showing the level of layers added
-- you can also control the game with touch events and by pressing the space key
-- you can reset the game
-- the game stops once a block went over the stack
-- once the game failed the last block falls down
-- the game reacts to window resizing
-
-Check out my YouTube channel for other game tutorials: https://www.youtube.com/channel/UCxhgW0Q5XLvIoXHAfQXg9oQ
-
-*/
 
 window.focus(); // Capture keys right away (by default focus is on editor)
 
